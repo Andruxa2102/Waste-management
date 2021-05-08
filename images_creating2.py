@@ -4,7 +4,7 @@
 
 import json
 
-labels = []
+labels = ['file', 'type']
 
 with open('/home/user/notebooks/Work/Waste_management_data/list_of_containers.json', 'r') as f:
     file = json.load(f)
